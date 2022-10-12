@@ -1,0 +1,24 @@
+{
+  "name": "moodletest",
+  "version": "1.0.0",
+  "description": "testing for Moodle Client package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hamd Zulfiqar",
+  "license": "ISC",
+  "dependencies": {
+    "@course-key/school-config": "git+https://github.com/course-key/school-config.git#release/SchoolConfigManagement",
+    "axios": "^0.27.2",
+    "axios-rate-limit": "^1.3.0",
+    "casual": "^1.6.2",
+    "csv-parse": "^5.3.0",
+    "dotenv": "^16.0.1",
+    "get-stream": "^6.0.1",
+    "moment": "^2.29.1",
+    "moodle-client": "^0.5.2",
+    "mysql2": "^2.3.3"
+  },
+  "type": "commonjs"
+}
